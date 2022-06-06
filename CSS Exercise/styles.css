@@ -1,0 +1,27 @@
+li, p{
+    color:green;
+}
+
+#unique-li {
+    color:midnightblue;
+}
+
+.warning {
+    color:blueviolet;
+}
+.warning.error, .warning[attribute-name] {
+  color:black;  
+}
+[attribute-name] {
+    color:gray;
+}
+
+[attribute-name="attribute-value"] {
+    color:yellowgreen;
+}
+.parent-child > li {
+    color:brown;
+}
+.ancestor-descendant li {
+    color:cornflowerblue;
+}
